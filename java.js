@@ -82,7 +82,7 @@ function ready(){
 
 
 function purchaseclicked(){
-    alert('thank you for the purchase')
+    alert('Are you sure you want to continue to purchase')
     var cartitems = document.getElementsByClassName('cart-items')[0]
     while(cartitems.hasChildNodes()){
         cartitems.removeChild(cartitems.firstChild)
